@@ -17,7 +17,7 @@ RUN \
         wheel \
     && pip3 install --no-cache-dir \
         --extra-index-url https://www.piwheels.org/simple \
-        "git+https://github.com/longunmin/wyoming-addons.git@master#egg=whisper" \
+        "wyoming @ https://github.com/longunmin/longunmin/wyoming-addons/tree/master.tar.gz" \
     \
     && apt-get purge -y --auto-remove \
         build-essential \
